@@ -13,8 +13,8 @@ init(autoreset=True)
 conexao = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='q1w2e3',
-    database='bdyoutube'
+    password='Insira sua senha',
+    database='Insira seu banco de dados'
 )
 cursor = conexao.cursor()
 
